@@ -1,0 +1,14 @@
+# Notes for long_term_EMG_myo
+* msr final project 
+* Sonia Yuxiao Lai
+
+### List of Files 
+* `/collect_data`: code for reading EMG and IMU signals from a myo armband, and displaying the results.
+    * `myo_raw.py`: code for recording EMD and IMU sigals into csv files
+    * `plot_emg_diff_pos.ipynb`: results of recorded data
+* `/test_data`: code for training TSD, DANN, and SCADANN on 3DC and myo dataset. 
+    * `LongTerm_3DC.ipynb`: train models using 3DC dataset and their results
+    * `myo_result.ipynb`: train models using myo dataset and their results across sessions
+    * `myo_result_across_sub.ipynb`: train models using myo dataset and their results across subjects 
+    * `test_on_myo_lower_freq.ipynb`: check whether lower frequency affect performance of TSD feature extraction functions
+    * Others are notes for learning the models. Details can be found in documentation of [long term training python code](https://github.com/aonai/long_term_EMG_myo). 
