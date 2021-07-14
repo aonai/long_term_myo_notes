@@ -10,5 +10,6 @@
     * `LongTerm_3DC.ipynb`: train models using 3DC dataset and their results
     * `myo_result.ipynb`: train models using myo dataset and their results across sessions
     * `myo_result_across_sub.ipynb`: train models using myo dataset and their results across subjects 
+    * `myo_result_across_days_loc0.ipyb`,  `myo_result_across_days_loc1.ipyb`,  `myo_result_across_days_loc2.ipyb`: train models using myo dataset and their results across days among the same subject and same wearing location.  
     * `test_on_myo_lower_freq.ipynb`: check whether lower frequency affect performance of TSD feature extraction functions
     * Others are notes for learning the models. Details can be found in documentation of [long term training python code](https://github.com/aonai/long_term_EMG_myo). 
