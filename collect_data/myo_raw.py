@@ -543,7 +543,8 @@ if __name__ == '__main__':
 
 
         m.add_emg_handler(proc_emg)    
-        m.add_pose_handler(lambda p: pose_writer.writerow((time.time(), p.name, p.value)))
+        # m.add_pose_handler(lambda p: pose_writer.writerow((time.time(), p.name, p.value)))
+        m.add_pose_handler(lambda p: print(time.time(), p.name, p.value))
         m.add_imu_handler(proc_imu)
 
         m.connect()
