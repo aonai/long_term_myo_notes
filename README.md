@@ -1,7 +1,7 @@
 # Notes for Train and Test Long-term Myo sEMG
 * Sonia Yuxiao Lai
 * MSR Final Project  
-* [Pose](https://aonai.github.io/linked_posts/myo_gesture_recognition.html)
+* [Pose](https://aonai.github.io/linked_posts/myo_gesture_recognition.html)  
 &nbsp;
 * Originally by [Ulysse Côté-Allard](https://github.com/UlysseCoteAllard/LongTermEMG)
 * Dataset recorded by [Suguru Kanoga](https://github.com/Suguru55/Wearable_Sensor_Long-term_sEMG_Dataset)
