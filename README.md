@@ -18,6 +18,7 @@ Running the code will store weights of Temporal-Spatial Descriptors (TSD) or Con
     * `plot_emg_diff_pos.ipynb`: results of recorded data
 * `/test_data`: code for training TSD, DANN, and SCADANN on long-term Myo dataset. Also display and save accuracy results to csv files.
     * `check_mean_std_acc.ipynb`: calculates mean and standard deviation of accuracies increasements from TSD to SCADANN for all cases. 
+    * `LongTerm_3DC.ipynb`: train models using 3DC dataset and their results
     * `myo_result_ConvNet_vs_TSD.ipynb`: compare performance of SCADANN between when the base model is ConvNet and TSD.  
     * `myo_result_across_days_loc0.ipyb`,  `myo_result_across_days_loc1.ipyb`,  `myo_result_across_days_loc2.ipyb`: train models using across days among the same subject at when wearing Myo at neutral position, inward rotation, and outward rotation respectively 
     * `myo_result_across_loc.ipynb`: train models across wearing locations. This includes the default training options.  
