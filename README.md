@@ -21,9 +21,11 @@ Running the code will store weights of Temporal-Spatial Descriptors (TSD) or Con
     * `check_mean_std_acc.ipynb`: calculates mean and standard deviation of accuracies increasements from TSD to SCADANN for all cases. 
     * `LongTerm_3DC.ipynb`: train models using 3DC dataset and their results
     * `myo_result_ConvNet_vs_TSD.ipynb`: compare performance of SCADANN between when the base model is ConvNet and TSD.  
-    * `myo_result_across_days_loc0.ipyb`,  `myo_result_across_days_loc1.ipyb`,  `myo_result_across_days_loc2.ipyb`: train models across days among the same subject when wearing Myo at neutral position, inward rotation, and outward rotation respectively 
+    * `myo_result_across_days_loc0.ipynb`,  `myo_result_across_days_loc1.ipynb`,  `myo_result_across_days_loc2.ipynb`: train models across days among the same subject when wearing Myo at neutral position, inward rotation, and outward rotation respectively 
+    * `myo_results_across_days_loc1_lump*.ipynb`: train models across days on subject_4 when wearing Myo at inward rotation, starting with a base model trained from incrementally lumped days (Day 0~1, 0~2, ... 0~8).
     * `myo_result_across_loc.ipynb`: train models across wearing locations. This is the default training options.  
     * `myo_result_across_sub_start0.ipynb`, `myo_result_across_sub_start1.ipynb`, `myo_result_across_sub_start2.ipynb`,`myo_result_across_sub_start3.ipynb`,`myo_result_across_sub_start4.ipynb`: train models across subjects when the base model is trained using data recorded for subject 0, 1, 2, 3, 4 respectively. 
+    * `myo_result_across_sub_lump*.ipynb`: train models across subjects when wearing Myo at neutral location, starting with a base model trained from lumped subjects (Subject 0~1, 0+2,0+3, 0~2, and 0~4).
     * `test_on_myo_lower_freq.ipynb`: check whether lower frequency affect performance of TSD feature extraction functions. 
 
 ### Results
